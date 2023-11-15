@@ -1,0 +1,7 @@
+- Affinity Propagation, Agglomerative Hierarchical clustering, 
+- Expectation-Maximization Clustering using GMM, 
+- DBSCAN clustering Algorithm, 
+- Mean-shift algorithm, 
+- K-Means algorithm, 
+- OPTICS, 
+- Gaussian Mixture Model, and BIRCH. 
