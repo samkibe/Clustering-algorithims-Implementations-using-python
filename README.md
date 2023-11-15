@@ -16,6 +16,8 @@ TASK: Implementation of clustering Algorithmns, by type.
 librarieskModes, kMeans
 2. Density-based Clustering
 - We will do simple implementations of these algorithmns, they include DBSCAN (Density-Based Spatial Clustering of Applications with Noise), OPTICS (Ordering Points To Identify the Clustering Structure), HDBSCAN (Hierarchical Density-Based Spatial Clustering of Applications with Noise), Mean Shift, Affinity Propagation et cetera.
-make_classification generates datasets with numerical features, which may not be optimal for Density-based Clustering therefore we will utilize the make_blobs function to create a dataset with well-defined clusters: libraries: DBSCAN, MeanShift, AffinityPropagation
+make_classification generates datasets with numerical features, which may not be optimal for Density-based Clustering therefore we will utilize the make_blobs function to create a dataset with well-defined clusters: libraries: DBSCAN, MeanShift, AffinityPropagation.
+3. Distribution-based Clustering
+- We will do simple implementations of these algorithmns, they include Gaussian Mixture Model and Expectation-Maximization (EM) Clustering for these implementations we will still use the make_blobs function to create a dataset, libraries: GaussianMixture
 
 
