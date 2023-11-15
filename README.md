@@ -19,5 +19,8 @@ librarieskModes, kMeans
 make_classification generates datasets with numerical features, which may not be optimal for Density-based Clustering therefore we will utilize the make_blobs function to create a dataset with well-defined clusters: libraries: DBSCAN, MeanShift, AffinityPropagation.
 3. Distribution-based Clustering
 - We will do simple implementations of these algorithmns, they include Gaussian Mixture Model and Expectation-Maximization (EM) Clustering for these implementations we will still use the make_blobs function to create a dataset, libraries: GaussianMixture
+- Expectation-Maximization (EM) is often used in conjunction with Gaussian Mixture Models (GMM), as the EM algorithm is employed to estimate the parameters of the GMM
+4. Hierarchical Clustering
+- We will do simple implementations of these algorithmns, they include Ward’s Method (Agglomerative Hierarchical Clustering), Hierarchical Clustering, Birch (Balanced Iterative Reducing and Clustering using Hierarchies) et cetera for these implementations we will still use the make_blobs function to create a dataset libraries: AgglomerativeClustering, Birch, SpectralClustering
 
 
